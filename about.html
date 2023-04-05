@@ -13,6 +13,7 @@
         </div>
     </header>
     <nav>
+        <link rel="stylesheet" href="./style.css" />
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="https://www.facebook.com/" title="go to facebook page" target="_blanck">Facebook</a>
@@ -23,20 +24,18 @@
     <hr />
     <br />
     <main>
-        <img src="raghadnarmouq.jpeg">
-        <p>
-        <h3>Raghad Nedal Narmouq</h3>
-        </p>
-        <p>my name is raghad nedal narmouq, I joined a software engineering course because my dream is to be a full
-            stack developer, and its interesting field and has a future, my hobbies are sports of all kinds, especially
-            swimming, cycling, badminton and yoga</p>
-
+        <img class="raghad" src="raghadnarmouq.jpeg">
+        <div class="about">
+            <h3>Raghad Nedal Narmouq</h3>
+            <p>my name is raghad nedal narmouq, I joined a software engineering course because my dream is to be a full
+                stack developer, and its interesting field and has a future, my hobbies are sports of all kinds,
+                especially
+                swimming, cycling, badminton and yoga</p>
+        </div>
 
         <div>
-            <p>
-            <h3>User Informations</h3>
-            </p>
-            <form target="_blank">
+            <h3 class="user">User Informations</h3>
+            <form class="info" target="_blank">
                 <div>
                     <label for="user">Name</label>
                     <input id="user" type="text" required placeholder="write your username" />
@@ -48,11 +47,11 @@
                 </div>
                 <br />
                 <div>
-                    <textarea name="raghad" cols="50" rows="10" placeholder="Text"></textarea>
+                    <textarea name="raghad" cols="50" rows="10" placeholder="Leave a message"></textarea>
                 </div>
                 <br />
                 <div>
-                    <input type="submit">
+                    <input class="sub" type="submit">
                 </div>
             </form>
         </div>
