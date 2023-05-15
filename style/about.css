@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* header style */
+header div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 20%;
+    background-color: rgb(120, 183, 246);
+}
+
+img {
+    margin-right: auto;
+}
+
+header div h1 {
+    margin: auto;
+}
+
+header div nav a {
+    margin: 5px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    border: 5px solid red;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+header div nav a:hover {
+    background-color: aqua;
+    color: red;
+    text-decoration: none;
+}
+
+
+/* main style */
+
+main img {
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+}
+
+main div div {
+    margin: 40px;
+    padding: 10px;
+    border: 5px solid;
+    min-width: 600px;
+    max-width: 600px;
+
+}
+
+.about-me {
+    display: flex;
+    flex-direction: row;
+    color: red;
+}
+
+.about-me h3 {
+    color: black;
+    font-size: 2em;
+    margin: 10px;
+}
+
+fieldset {
+    text-align: center;
+    max-width: fit-content;
+    margin: auto;
+    padding: 10px;
+    border: 3px solid;
+}
+
+.sub {
+    background-color: red;
+    font-size: 1.5em;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.user-info {
+    font-size: 1.5em;
+    border: 2px solid;
+    padding: 5px;
+}
+
+/* Footer style */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgb(120, 183, 246);
+}
+
+footer p {
+    margin: 10px;
+}
