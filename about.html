@@ -1,68 +1,73 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
+    <link rel="stylesheet" href="./style/about.css" />
 </head>
 
 <body>
     <header>
-        <h1>About Me</h1>
         <div>
-            <img src="ToDoList.png" width="50" height="50">
+            <img src="assets/logo.png" width="50" height="50">
+            <h1>About Me</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="https://www.facebook.com/" title="go to facebook page" target="_blanck">Facebook</a>
+                <a href="https://www.google.com/" title="go to facebook page" target="_blanck">Google</a>
+                <a href="mailto: raghadnarmoq@gmail.com">Contact me</a>
+            </nav>
         </div>
     </header>
-    <nav>
-        <link rel="stylesheet" href="./style.css" />
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="https://www.facebook.com/" title="go to facebook page" target="_blanck">Facebook</a>
-        <a href="https://www.google.com/" title="go to facebook page" target="_blanck">Google</a>
-        <a href="mailto: raghadnarmoq@gmail.com">Contact me</a>
-    </nav>
 
-    <hr />
-    <br />
+
     <main>
-        <img class="raghad" src="raghadnarmouq.jpeg">
-        <div class="about">
-            <h3>Raghad Nedal Narmouq</h3>
-            <p>my name is raghad nedal narmouq, I joined a software engineering course because my dream is to be a full
-                stack developer, and its interesting field and has a future, my hobbies are sports of all kinds,
-                especially
-                swimming, cycling, badminton and yoga</p>
+        <div class="about-me">
+            <img class="my-image" src="assets/my-photo.jpeg">
+            <div>
+                <h3>Raghad Nedal Narmouq</h3>
+                <p>my name is raghad nedal narmouq, I joined a software engineering course because my dream is to be a
+                    full
+                    stack developer, and its interesting field and has a future, my hobbies are sports of all kinds,
+                    especially
+                    swimming, cycling, badminton and yoga</p>
+            </div>
         </div>
 
-        <div>
-            <h3 class="user">User Informations</h3>
+        <fieldset>
+            <!-- hay badal form -->
+            <legend class="user-info">User Informations</legend>
             <form class="info" target="_blank">
                 <div>
                     <label for="user">Name</label>
                     <input id="user" type="text" required placeholder="write your username" />
                 </div>
-                <br>
                 <div>
                     <label for="email">Email</label>
                     <input id="email" type="email" required placeholder="write a valid Email" />
                 </div>
-                <br />
                 <div>
                     <textarea name="raghad" cols="50" rows="10" placeholder="Leave a message"></textarea>
                 </div>
-                <br />
                 <div>
-                    <input class="sub" type="submit">
+                    <input class="sub" type="submit" value="submit">
                 </div>
-            </form>
-        </div>
-        </br>
+        </fieldset>
     </main>
+
+
     <footer>
-        <p>the copyright : &copy; 2023</p>
         <div>
-            <img src="ToDoList.png" width="50" height="50">
+            <img src="assets/logo.png" width="50" height="50">
+            <p>the copyright : &copy; 2023</p>
         </div>
     </footer>
+
+
 </body>
 
 </html>

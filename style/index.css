@@ -1,0 +1,242 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* header style */
+header div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 20%;
+    background-color: rgb(120, 183, 246);
+}
+
+img {
+    margin-right: auto;
+}
+
+header div h1 {
+    margin: auto;
+}
+
+header div nav a {
+    margin: 5px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    border: 5px solid red;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+header div nav a:hover {
+    background-color: aqua;
+    color: red;
+    text-decoration: none;
+}
+
+
+/* main style */
+
+table caption {
+    text-align: center;
+    color: black;
+}
+
+table {
+    width: 50%;
+    border: 5px solid;
+    border-spacing: 10px;
+    background-color: aqua;
+    margin: auto;
+}
+
+table td {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(211, 204, 204);
+    border: 5px solid;
+}
+
+table th {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(162, 246, 154);
+    font-weight: bold;
+    border: 5px solid;
+}
+
+
+/* Footer style */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgb(120, 183, 246);
+}
+
+footer p {
+    margin: 10px;
+}
+
+
+
+
+
+
+/* footer div {
+    font-size: 1.5em;
+} */
+
+/* footer {
+    background-color: rgb(120, 183, 246);
+    display: inline-block;
+    bottom: 0;
+    max-height: 100px;
+}
+
+.footer1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cont-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer2 {
+    display: flex;
+    margin-left: auto;
+
+} */
+
+
+
+
+/* main style */
+
+
+/* .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 20%;
+    background-color: rgb(120, 183, 246);
+}
+
+
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} */
+
+/* footer div div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+} */
+
+
+
+/* header h1 {
+    background-color: rgb(104, 233, 122);
+    text-align: center;
+}
+
+header img {
+    position: absolute;
+    left: 0px;
+    width: 30px;
+    height: 30px;
+}
+
+nav {
+    background-color: grey;
+    text-align: center;
+    font-size: 20px;
+    height: 30px;
+}
+
+nav a {
+    padding: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+
+main table {
+    margin-left: 50%;
+}
+
+footer {
+    background-color: grey;
+    height: 150px;
+    margin-top: 200px;
+}
+
+footer p {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.raghad {
+    height: 250px;
+    width: 250px;
+}
+
+.about {
+    display: inline-block;
+    position: absolute;
+    top: 150px;
+    left: 300px;
+}
+
+.about h3 {
+    color: red;
+    font-size: 35px;
+}
+
+.sub {
+    background-color: aqua;
+}
+
+.user {
+    color: brown;
+    text-align: center;
+    font-size: 35px;
+}
+
+.info {
+    text-align: center;
+} */
