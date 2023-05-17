@@ -74,8 +74,9 @@ table th {
 
 footer {
     position: absolute;
-    bottom: 0;
-    width: 100%;
+    bottom: 10px;
+    right: 10px;
+    /* width: 100%; */
 }
 
 footer div {
